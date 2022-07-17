@@ -42,10 +42,9 @@ implementation
 
 uses
   // RTL
-  System.SysUtils, System.Classes, System.IOUtils, System.Net.Mime,
+  System.Classes, System.IOUtils, System.Net.Mime, System.SysUtils,
   // Android
-  Androidapi.Helpers, Androidapi.JNI.JavaTypes, Androidapi.JNI.App,
-  Androidapi.Jni.Support, Androidapi.JNI.Os;
+  Androidapi.Helpers, Androidapi.JNI.JavaTypes, Androidapi.JNI.App, Androidapi.JNI.Os, Androidapi.JNI.Support;
 
 const
   cMIMETypeAll = '*/*';
