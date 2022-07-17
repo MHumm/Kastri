@@ -80,7 +80,7 @@ type
     property OnDblClick;
     property OnEnter;
     property OnExit;
-    property OnLongPress;
+//    property OnLongPress;
     property OnMouseDown;
     property OnMouseMove;
     property OnMouseUp;
